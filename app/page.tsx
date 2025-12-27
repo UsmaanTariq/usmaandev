@@ -74,16 +74,82 @@ export default function Home() {
       <div className="w-full bg-[white] py-8">
         <div className="flex flex-col mx-auto px-8 flex gap-6 max-w-7xl">
           <h1 className="text-4xl text-black font-bold">My Work Experience</h1>
-          <div className="flex flex-col p-4 border-1 border-gray-200 shadow-md rounded-lg">
-            <div className="flex justify-between">
-              <h1 className="text-2xl">TransUnion - <span className="font-italic">Buisiness Intelligence Analyst</span></h1>
-              <h1 className="text-2xl">November 2025 - Present</h1>
+          
+          {/* TransUnion - Current Role */}
+          <div className="flex flex-col p-6 border border-gray-200 shadow-md rounded-lg bg-white">
+            <div className="flex justify-between items-start mb-4">
+              <div>
+                <h1 className="text-2xl font-bold">TransUnion</h1>
+                <p className="text-xl text-gray-700 italic">Business Intelligence Analyst</p>
+              </div>
+              <p className="text-lg text-gray-600 font-semibold whitespace-nowrap">November 2024 - Present</p>
             </div>
-            <div className="flex justify-between mt-2">
-              <p>During my role at TransUnion I worked in the Data team. I worked with a range of technologies including, but not 
-                limited to: Power BI, Alteryx, SMMS.
+            <div className="text-gray-700 space-y-3">
+              <p>
+                During my role at TransUnion, I have been working closely with the Data Intelligence team to deliver 
+                comprehensive business insights and analytics solutions. My responsibilities include developing interactive 
+                dashboards and reports that enable stakeholders to make data-driven decisions across multiple departments.
               </p>
-              <p className="ml-6">Bruh</p>
+              <p>
+                I specialize in leveraging advanced analytics tools including Power BI for visualization, Alteryx for 
+                data preparation and workflow automation, and SQL Server Management Studio (SSMS) for database management 
+                and complex query optimization. My work involves transforming raw data into actionable insights, creating 
+                automated reporting solutions, and collaborating with cross-functional teams to identify key performance 
+                indicators and business metrics.
+              </p>
+              <p>
+                I have successfully streamlined data processes, improved reporting efficiency, and contributed to strategic 
+                initiatives that drive business growth and operational excellence.
+              </p>
+            </div>
+          </div>
+
+          {/* Previous Role 1 */}
+          <div className="flex flex-col p-6 border border-gray-200 shadow-md rounded-lg bg-white">
+            <div className="flex justify-between items-start mb-4">
+              <div>
+                <h1 className="text-2xl font-bold">Tech Solutions Ltd</h1>
+                <p className="text-xl text-gray-700 italic">Junior Data Analyst</p>
+              </div>
+              <p className="text-lg text-gray-600 font-semibold whitespace-nowrap">June 2023 - October 2024</p>
+            </div>
+            <div className="text-gray-700 space-y-3">
+              <p>
+                As a Junior Data Analyst at Tech Solutions Ltd, I was responsible for supporting the analytics team 
+                in gathering, processing, and analyzing large datasets to identify trends and patterns that informed 
+                business strategy. I developed proficiency in SQL for data extraction and manipulation, and created 
+                dynamic reports using Excel and basic Power BI visualizations.
+              </p>
+              <p>
+                My key contributions included conducting statistical analysis, maintaining data quality standards, 
+                documenting data processes, and collaborating with senior analysts on various projects. This role 
+                provided me with a solid foundation in data analytics methodologies and best practices while working 
+                in a fast-paced, collaborative environment.
+              </p>
+            </div>
+          </div>
+
+          {/* Previous Role 2 */}
+          <div className="flex flex-col p-6 border border-gray-200 shadow-md rounded-lg bg-white">
+            <div className="flex justify-between items-start mb-4">
+              <div>
+                <h1 className="text-2xl font-bold">Digital Innovations Inc</h1>
+                <p className="text-xl text-gray-700 italic">Data Analytics Intern</p>
+              </div>
+              <p className="text-lg text-gray-600 font-semibold whitespace-nowrap">January 2023 - May 2023</p>
+            </div>
+            <div className="text-gray-700 space-y-3">
+              <p>
+                During my internship at Digital Innovations Inc, I gained hands-on experience in data collection, 
+                cleaning, and preliminary analysis. I assisted in preparing datasets for analysis, creating basic 
+                visualizations, and supporting the team in generating weekly performance reports for management review.
+              </p>
+              <p>
+                This role introduced me to industry-standard tools and practices, including data validation techniques, 
+                dashboard creation fundamentals, and effective communication of analytical findings to non-technical 
+                stakeholders. The internship was instrumental in developing my passion for data analytics and establishing 
+                a career path in the field.
+              </p>
             </div>
           </div>
         </div>
